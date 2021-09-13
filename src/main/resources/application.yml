@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: admin-server
+  security:
+    user:
+      name: admin
+      password: ENC(cEdF2lIioA6MrjzsUsthSe79Ki45ao6X)
+
+server:
+  port: 8769
+  servlet:
+    # 应用的访问路径
+    context-path: /boot-admin
+
+# jasypt加密的密匙
+jasypt:
+  encryptor:
+    password: Y6M9fAJQdU7jNp5MW
