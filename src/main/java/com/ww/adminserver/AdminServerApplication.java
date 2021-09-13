@@ -10,9 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableAdminServer
 public class AdminServerApplication {
 
-    @Autowired
-    private StringEncryptor encryptor;
-
     public static void main(String[] args) {
         SpringApplication.run( AdminServerApplication.class, args );
     }
