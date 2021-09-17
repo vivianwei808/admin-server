@@ -5,6 +5,9 @@ spring:
     user:
       name: admin
       password: ENC(cEdF2lIioA6MrjzsUsthSe79Ki45ao6X)
+#  boot:
+#    admin:
+#      contextPath: /boot-admin
 
 server:
   port: 8769
